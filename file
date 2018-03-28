@@ -1,0 +1,26 @@
+*****************send regist********************
+packet type: Regist
+addr: 2001:250:5004:1013:c170:7936:ba9:6254
+csPort: 9002
+crPort: 9003
+nsPort: 9000
+nrPort: 9001
+-----------------------------------------
+***********receive adjacent table***************
+packet type: AdjacentTable
+current roleID._role: Sub current roleID._id: 1
+numOfAdjacent: 1
+addr: 2001:250:5004:1013:25d4:adcf:a0be:4196
+csPort: 9002
+crPort: 9003
+nsPort: 9000
+nrPort: 9001
+-----------------------------------------
+*************receive router table***************
+packet type: RouterTable
+_role: EN _id: 1
+nextHop._role: 1 nextHop._id: 1 
+-----------------------------------------
+*************set FIB****************************
+Name: RRot-1 FaceList: 0 
+-----------------------------------
