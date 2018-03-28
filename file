@@ -8,19 +8,17 @@ nrPort: 9001
 -----------------------------------------
 ***********receive adjacent table***************
 packet type: AdjacentTable
-current roleID._role: Sub current roleID._id: 1
 numOfAdjacent: 1
+roleID._role: EP  roleID._id: 1
 addr: 2001:250:5004:1013:25d4:adcf:a0be:4196
-csPort: 9002
-crPort: 9003
 nsPort: 9000
 nrPort: 9001
 -----------------------------------------
 *************receive router table***************
 packet type: RouterTable
-_role: EN _id: 1
-nextHop._role: 1 nextHop._id: 1 
+_role: RN _id: 1
+nextHop._role: EN nextHop._id: 1 
 -----------------------------------------
 *************set FIB****************************
-Name: RRot-1 FaceList: 0 
+Name: RN1 FaceList: 0 
 -----------------------------------
