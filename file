@@ -1,24 +1,27 @@
-*****************send regist********************
-packet type: Regist
-addr: 2001:250:5004:1013:c170:7936:ba9:6254
-csPort: 9002
-crPort: 9003
-nsPort: 9000
-nrPort: 9001
+**********recv subscribe ***********
+PacketType:	Subscribe
+contentID		/sports/football/Lionel Messi
+sequenceNumber		0
 -----------------------------------------
-***********receive adjacent table***************
-packet type: AdjacentTable
-numOfAdjacent: 1
-roleID._role: EP  roleID._id: 1
-addr: 2001:250:5004:1013:25d4:adcf:a0be:4196
-nsPort: 9000
-nrPort: 9001
+**********send Request ***********
+PacketType:	Request
+contentID		/sports/football/Lionel Messi
+sequenceNumber		0
 -----------------------------------------
-*************receive router table***************
-packet type: RouterTable
-_role: RN _id: 1
-nextHop._role: EN nextHop._id: 1 
+*********recv groupIpresponse start********
+PacketType:	Reply
+contentname		/sports/football/Lionel Messi
+joinGroupIp		ff02:87c7:bc07:9190:bf49:7bb9:9d3f:7438
 -----------------------------------------
-*************set FIB****************************
-Name: RN1 FaceList: 0 
------------------------------------
+*********recv publish start********
+PacketType:	Publish
+contentName		/sports/football/Lionel Messi
+content		hello sports football lionel messi 
+sequenceNumber		2
+-----------------------------------------
+*********send publish start********
+PacketType:	Publish
+contentName		/sports/football/Lionel Messi
+content		hello sports football lionel messi 
+sequenceNumber		2
+-----------------------------------------
