@@ -1,27 +1,22 @@
-**********recv subscribe ***********
+**********Subscribe from 2001:250:5004:1013:c170:7936:ba9:6254***********
 PacketType:	Subscribe
 CD		/sports/football/Lionel Messi
 sequenceNumber		0
 -----------------------------------------
-**********send Request ***********
+**********Request to 2001:250:5004:1013:cd1e:d8b3:6bcc:5b07**************
 PacketType:	Request
 CD		/sports/football/Lionel Messi
 sequenceNumber		0
 -----------------------------------------
-*********recv groupIpresponse start********
+*********Reply from 2001:250:5004:1013:cd1e:d8b3:6bcc:5b07***************
 PacketType:	Reply
 CD		/sports/football/Lionel Messi
 joinGroupIp		ff02:87c7:bc07:9190:bf49:7bb9:9d3f:7438
 -----------------------------------------
-*********recv publish start********
-PacketType:	Publish
+*********Publish from ff02:87c7:bc07:9190:bf49:7bb9:9d3f:7438********
+PacketType:	Data
 CD		/sports/football/Lionel Messi
 content		hello sports football lionel messi 
 sequenceNumber		2
 -----------------------------------------
-*********send publish start********
-PacketType:	Publish
-CD		/sports/football/Lionel Messi
-content		hello sports football lionel messi 
-sequenceNumber		2
------------------------------------------
+
