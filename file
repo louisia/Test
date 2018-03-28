@@ -1,27 +1,27 @@
 **********recv subscribe ***********
 PacketType:	Subscribe
-contentID		/sports/football/Lionel Messi
+CD		/sports/football/Lionel Messi
 sequenceNumber		0
 -----------------------------------------
 **********send Request ***********
 PacketType:	Request
-contentID		/sports/football/Lionel Messi
+CD		/sports/football/Lionel Messi
 sequenceNumber		0
 -----------------------------------------
 *********recv groupIpresponse start********
 PacketType:	Reply
-contentname		/sports/football/Lionel Messi
+CD		/sports/football/Lionel Messi
 joinGroupIp		ff02:87c7:bc07:9190:bf49:7bb9:9d3f:7438
 -----------------------------------------
 *********recv publish start********
 PacketType:	Publish
-contentName		/sports/football/Lionel Messi
+CD		/sports/football/Lionel Messi
 content		hello sports football lionel messi 
 sequenceNumber		2
 -----------------------------------------
 *********send publish start********
 PacketType:	Publish
-contentName		/sports/football/Lionel Messi
+CD		/sports/football/Lionel Messi
 content		hello sports football lionel messi 
 sequenceNumber		2
 -----------------------------------------
